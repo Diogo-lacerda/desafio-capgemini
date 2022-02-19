@@ -1,3 +1,6 @@
+![logo-capgemini](https://user-images.githubusercontent.com/87655126/154813503-db698803-4aa5-44b9-8088-8223d314dcaf.png)
+
+
 # Desafio Capgemini
 
 _O principal objetivo desse projeto é realizar os desafios com sucesso, mostrando minha capacidade
@@ -20,7 +23,7 @@ Esse projeto contém 3 desafios, são eles:
 - Segundo Desafio
 
   > Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
-  -- Possui no mínimo 6 caracteres. -- Contém no mínimo 1 digito. -- Contém no mínimo 1 letra em minúsculo. -- Contém no mínimo 1 letra em maiúsculo. -- Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
+  </br>-- Possui no mínimo 6 caracteres. </br>-- Contém no mínimo 1 digito. </br>-- Contém no mínimo 1 letra em minúsculo. </br>-- Contém no mínimo 1 letra em maiúsculo. </br>-- Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
 
   > Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura.
 
