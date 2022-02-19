@@ -1,7 +1,7 @@
 # Desafio Capgemini
 
-### _O principal objetivo desse projeto é realizar os desafios com sucesso, mostrando minha
-capacidade como programador e aprender com este processo._
+_O principal objetivo desse projeto é realizar os desafios com sucesso, mostrando minha capacidade
+como programador e aprender com este processo._
 
 ## Tecnologias
 
