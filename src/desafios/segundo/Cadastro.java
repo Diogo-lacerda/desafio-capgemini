@@ -1,12 +1,12 @@
 package desafios.segundo;
 
 import desafios.exceptions.SenhaPossuiMinimoUmNumeroException;
+import desafios.exceptions.SenhaPossuirMinimoUmaCaracterExcption;
 import desafios.exceptions.SenhaPossuirMinimoUmaLetraMaiusculaExcption;
 import desafios.exceptions.SenhaPossuirMinimoUmaLetraMinusculaExcption;
 import desafios.exceptions.SenhaTamanhoInvalidoException;
 
 public class Cadastro {
-    // TODO: 17/02/2022  refatorar este codigo em metodos
     public static void executarCadastros(String nome, String senha) {
 
         if (senha.length() <= 6) {
@@ -42,11 +42,7 @@ public class Cadastro {
                 || senha.contains("^") || senha.contains("&") || senha.contains("*") || senha.contains("()") || senha.contains("-")
                 || senha.contains("+"))) {
             System.out.println("A senha informada deve possuir no mínimo um carácter");
-            throw new RuntimeException();
+            throw new SenhaPossuirMinimoUmaCaracterExcption();
         }
-//        for (int i = 0; i < 123; i++) {
-//            System.out.println("Carácter: " + (char)i+ " valor int: " + i);
-//        Usado para saber qual o valor de um carácter em números.
-//        }
     }
 }
